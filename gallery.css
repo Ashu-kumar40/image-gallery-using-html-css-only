@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+
+}
+
+/* .conntainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.imgbox {
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+}
+
+h2 {
+    position: relative;
+    top: 85%;
+    left: 4%;
+    color: white;
+    float: left;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: none;
+    /* width: 100%; */
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0px 23px;
+    bottom: 0px;
+    background-color: #1f2224;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+#right {
+    position: absolute;
+    right: 5%;
+}
+
+#img1 {
+    background: url(./assets/images/01.jpg) no-repeat center center/cover;
+}
+
+#img2 {
+    background: url(./assets/images/02.jpg) no-repeat center center/cover;
+}
+
+#img3 {
+    background: url(./assets/images/03.jpg) no-repeat center center/cover;
+}
+
+#img4 {
+    background: url(./assets/images/04.jpg) no-repeat center center/cover;
+}
+
+#img5 {
+    background: url(./assets/images/05.jpg) no-repeat center center/cover;
+}
+
+#img6 {
+    background: url(./assets/images/06.jpg) no-repeat center center/cover;
+}
+
+#img7 {
+    background: url(./assets/images/07.jpg) no-repeat center center/cover;
+}
+
+#img8 {
+    background: url(./assets/images/08.jpg) no-repeat center center/cover;
+}
+
+#img9 {
+    background: url(./assets/images/09.jpg) no-repeat center center/cover;
+}
+
+#img10 {
+    background: url(./assets/images/10.jpg) no-repeat center center/cover;
+}
+
+#img11 {
+    background: url(./assets/images/11.jpg) no-repeat center center/cover;
+}
+
+#img12 {
+    background: url(./assets/images/12.jpg) no-repeat center center/cover;
+}
+
+
+@media (max-width: 795px) {
+    .imgbox {
+        width: 49%;
+    }
+}
+
+/* @media (max-width: 496px) {
+    .imgbox{
+        width: 100%;
+    }
+} */
