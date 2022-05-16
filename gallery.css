@@ -13,6 +13,13 @@ body {
     align-items: center;
     background-color: #1f2224;
 }
+h1{
+    color: white;
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     width: 100%;
