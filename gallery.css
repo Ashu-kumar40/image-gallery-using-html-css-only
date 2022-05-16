@@ -13,10 +13,11 @@ body {
     align-items: center;
     background-color: #1f2224;
 }
-h1{
+
+h1 {
     color: white;
     font-size: 34px;
-    line-height: 70px;
+    line-height: 100px;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
 }
@@ -55,6 +56,10 @@ h2 {
 .before-click {
     display: none;
     /* width: 100%; */
+}
+
+img.image {
+    width: 100%;
 }
 
 #check1:checked~#img1,
@@ -101,34 +106,43 @@ h2 {
     transition: all .4s ease;
 }
 
-#check1:checked~#img1 img,
-#check2:checked~#img2 img,
-#check3:checked~#img3 img,
-#check4:checked~#img4 img,
-#check5:checked~#img5 img,
-#check6:checked~#img6 img,
-#check7:checked~#img7 img,
-#check8:checked~#img8 img,
-#check9:checked~#img9 img,
-#check10:checked~#img10 img,
-#check11:checked~#img11 img,
-#check12:checked~#img12 img {
-    width: 60%;
+#check1:checked~#img1>label>div,
+#check2:checked~#img2>label>div,
+#check3:checked~#img3>label>div,
+#check4:checked~#img4>label>div,
+#check5:checked~#img5>label>div,
+#check6:checked~#img6>label>div,
+#check7:checked~#img7>label>div,
+#check8:checked~#img8>label>div,
+#check9:checked~#img9>label>div,
+#check10:checked~#img10>label>div,
+#check11:checked~#img11>label>div,
+#check12:checked~#img12>label>div {
+    position: relative;
+    width: 70%;
     height: auto;
     transition: all .4s ease;
-    display: inline-block;
 }
 
-/* h3.preview {
+h2.preview {
     font-family: 'Roboto', sans-serif;
     display: block;
     font-weight: 300;
-    font-size: 16px;
-    position: fixed;
-    top: 64%;
+    font-size: 25px;
+    position: absolute;
+    top: 72%;
     left: 5%;
     color: white;
-} */
+}
+
+label>div>p {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: white;
+    left: 5%;
+    top: 80%;
+    width: 85%;
+}
 
 footer {
     display: flex;
@@ -207,18 +221,30 @@ input {
         width: 49.5%;
     }
 
-    #check1:checked~#img1 img,
-    #check2:checked~#img2 img,
-    #check3:checked~#img3 img,
-    #check4:checked~#img4 img,
-    #check5:checked~#img5 img,
-    #check6:checked~#img6 img,
-    #check7:checked~#img7 img,
-    #check8:checked~#img8 img,
-    #check9:checked~#img9 img,
-    #check10:checked~#img10 img,
-    #check11:checked~#img11 img,
-    #check12:checked~#img12 img {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2.preview{
+        font-size: 18px;
+    }
+
+    label>div>p {
+        font-size: 13px;
+    }
+
+    #check1:checked~#img1>label>div,
+    #check2:checked~#img2>label>div,
+    #check3:checked~#img3>label>div,
+    #check4:checked~#img4>label>div,
+    #check5:checked~#img5>label>div,
+    #check6:checked~#img6>label>div,
+    #check7:checked~#img7>label>div,
+    #check8:checked~#img8>label>div,
+    #check9:checked~#img9>label>div,
+    #check10:checked~#img10>label>div,
+    #check11:checked~#img11>label>div,
+    #check12:checked~#img12>label>div {
         width: 80%;
     }
 }
@@ -229,8 +255,24 @@ input {
 
     }
 
-    h2{
+    h1 {
+        font-size: 11px;
+        line-height: 45px;
+        width: 100%;
+        padding-left: 23px;
+    }
+
+    h2 {
         font-size: 16px;
+    }
+
+    h2.preview{
+        font-size: 14px;
+    }
+
+    label>div>p {
+        font-size: 10px;
+        width: 80%;
     }
 
     #check1:checked~#img1>label,
@@ -248,18 +290,18 @@ input {
         backdrop-filter: blur(8px);
     }
 
-    #check1:checked~#img1 img,
-    #check2:checked~#img2 img,
-    #check3:checked~#img3 img,
-    #check4:checked~#img4 img,
-    #check5:checked~#img5 img,
-    #check6:checked~#img6 img,
-    #check7:checked~#img7 img,
-    #check8:checked~#img8 img,
-    #check9:checked~#img9 img,
-    #check10:checked~#img10 img,
-    #check11:checked~#img11 img,
-    #check12:checked~#img12 img {
+    #check1:checked~#img1>label>div,
+    #check2:checked~#img2>label>div,
+    #check3:checked~#img3>label>div,
+    #check4:checked~#img4>label>div,
+    #check5:checked~#img5>label>div,
+    #check6:checked~#img6>label>div,
+    #check7:checked~#img7>label>div,
+    #check8:checked~#img8>label>div,
+    #check9:checked~#img9>label>div,
+    #check10:checked~#img10>label>div,
+    #check11:checked~#img11>label>div,
+    #check12:checked~#img12>label>div {
         width: 100%;
     }
 
